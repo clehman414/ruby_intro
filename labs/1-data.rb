@@ -12,6 +12,12 @@
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
-# rand(1..6)
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+
+puts "You rolled a #{die1} on the first die"
+puts "You rolled a #{die2} on the second die"
+
 # Log output to the screen with puts:
 # puts "Hello, world"

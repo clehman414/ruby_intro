@@ -3,7 +3,7 @@
 # ruby 2-conditionals.rb
 
 # EXERCISE
-# Continue your craps program (starting code below).
+# Continue your craps program (starting code below). 
 # When executed, this program should print out two random
 # numbers, one on each line, simulating the roll of two
 # dice.
@@ -28,5 +28,14 @@ die2 = rand(1..6)
 puts die2
 
 # 3. create a variable for the total and write it to the screen
+
 total = die1 + die2
 puts "The total is: #{total}"
+
+if total == "7" || "11" 
+    puts "YOU WIN!"
+elsif total == "2" || "3" || "12"
+    puts "YOU LOSE"
+else 
+    puts "THE POINT IS {number}"
+end
